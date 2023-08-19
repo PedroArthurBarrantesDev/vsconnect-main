@@ -86,6 +86,7 @@ function ListaDevs() {
                                 devs.map((dev: any, indice: number) => {
                                     return <li key={indice}>
                                         <CardDev 
+                                        id={dev.id}
                                         foto={dev.user_img} 
                                         nome={dev.nome} 
                                         email={dev.email} 
