@@ -9,7 +9,7 @@ function CardServico(props: any) {
         <div className="servico">
             <div className="topo_servico">
                 <Link to={"/visualizar/servico/" + props.id}><h3>{props.titulo}</h3></Link>
-                <span>R$ {props.proposta}</span>
+                <span>R${props.proposta}</span>
             </div>
             <p>{props.descricao}</p>
             <div className="techs">
