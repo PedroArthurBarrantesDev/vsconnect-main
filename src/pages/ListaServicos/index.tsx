@@ -85,6 +85,7 @@ function ListaServicos() {
                                         return(
                                             <li key={indice}>
                                                 <CardServico
+                                                id={servicos.id}
                                                 titulo={servicos.nome}
                                                 descricao={servicos.descricao}
                                                 proposta={servicos.valor}

@@ -9,6 +9,7 @@ import ListaDevs from './pages/ListaDevs';
 import Header from "../src/components/Header"
 import Footer from './components/Footer';
 import Perfil from "./pages/PerfilUsuario";
+import Servico from "./pages/VisualizarServico";
 
 //Rotas
 
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="lista/devs" element={<ListaDevs/>}/>
         {/* Rota com o parametro indicando o identificador do Desenvolvedor */}
         <Route path="perfil/:idUsuario" element={<Perfil />}></Route>
+        <Route path="visualizar/servico/:idServico" element={<Servico />}></Route>
       </Routes>
 
       <Footer />

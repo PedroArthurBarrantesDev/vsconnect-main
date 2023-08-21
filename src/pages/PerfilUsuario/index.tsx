@@ -1,3 +1,6 @@
+//estilizacao
+import "./style.css"
+
 //rotas
 import { Link, useParams } from "react-router-dom";
 
