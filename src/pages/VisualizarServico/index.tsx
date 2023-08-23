@@ -22,11 +22,11 @@ function VisualizarServico() {
     const [ listaTechs, setListaTechs ] = useState<string[]>([]);
 
     function buscarServicoPorID() {
-        //basic structure to consume API
+        //estrutura basica para consumir API
         api.get("servicos/" + idServico).then((response: any) => {
             // console.log(response.data);
             
-            //sets the values according to the ID
+            //seta o valor referente ao ID do servico
             setNome(response.data.nome);
             setValor(response.data.valor);
             setDescricao(response.data.descricao);

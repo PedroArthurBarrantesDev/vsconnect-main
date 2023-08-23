@@ -1,3 +1,4 @@
+import "./style.css"
 
 import imgLogo from "../../assets/images/logo.svg";
 import imgDev from "../../assets/images/dev.png";
@@ -7,7 +8,7 @@ import iconLinkedin from "../../assets/images/linkedin.svg";
 
 import {Link} from "react-router-dom"
 
-import "./style.css"
+
 
 function Footer() {
     return (
