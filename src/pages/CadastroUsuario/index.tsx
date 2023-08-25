@@ -159,6 +159,7 @@ function CadastroUsuario() {
                                 type="file"
                                 id="foto"
                                 onChange={verificarCampoUpload}
+                                required
                             />
                         </div>
 
